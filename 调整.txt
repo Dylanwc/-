@@ -1,0 +1,11 @@
+python train_image_classifier.py \
+    --train_dir="C:/Users/Dylan/Desktop/car_head/train" \
+    --dataset_dir="C:/Users/Dylan/Desktop/car_head/cars_head" \
+    --dataset_name=cars_head \
+    --dataset_split_name=train \
+    --model_name=inception_v4 \
+    --checkpoint_path="C:/Users/Dylan/Desktop/car_head/checkpoint/inception_v4.ckpt \
+    --checkpoint_exclude_scopes=InceptionV4/Logits,InceptionV4/AuxLogits \
+    --trainable_scopes=InceptionV4/Logits,InceptionV4/AuxLogits
+
+python train_image_classifier.py --train_dir="C:/Users/Dylan/Desktop/car_head/train" --dataset_dir="C:/Users/Dylan/Desktop/car_head/cars_head" --dataset_name=cars_head --dataset_split_name=train --model_name=inception_v4 --checkpoint_path="C:/Users/Dylan/Desktop/car_head/checkpoint/inception_v4.ckpt" --checkpoint_exclude_scopes=InceptionV4/Logits,InceptionV4/AuxLogits --trainable_scopes=InceptionV4/Logits,InceptionV4/AuxLogits

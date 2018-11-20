@@ -1,0 +1,9 @@
+python eval_image_classifier.py \
+    --alsologtostderr \
+    --checkpoint_path="C:/Users/Dylan/Desktop/car_head/train" \
+    --dataset_dir="C:/Users/Dylan/Desktop/car_head/cars_head" \
+    --dataset_name=cars_head \
+    --dataset_split_name=validation \
+    --model_name=inception_v4
+
+python eval_image_classifier.py --alsologtostderr --checkpoint_path="C:/Users/Dylan/Desktop/car_head/train" --dataset_dir="C:/Users/Dylan/Desktop/car_head/cars_head"  --dataset_name=cars_head  --dataset_split_name=validation  --model_name=inception_v4

@@ -1,0 +1,1 @@
+python train_image_classifier.py --train_dir="C:/Users/Dylan/Desktop/car_head/train" --dataset_name=cars_head --dataset_split_name=train --dataset_dir="C:/Users/Dylan/Desktop/car_head/cars_head" --model_name=inception_v4
